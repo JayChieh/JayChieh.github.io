@@ -8,12 +8,12 @@
     <link href="/2020/09/30/%E5%BC%80%E7%AF%87%E8%AF%8D%EF%BC%9Akizzi-s-EE-World/"/>
     <url>/2020/09/30/%E5%BC%80%E7%AF%87%E8%AF%8D%EF%BC%9Akizzi-s-EE-World/</url>
     
-    <content type="html"><![CDATA[<p><img src="/image/suo.jpg"><br>主要有以下几个方面：  </p><h3 id="一、电机控制理论及建模、仿真"><a href="#一、电机控制理论及建模、仿真" class="headerlink" title="一、电机控制理论及建模、仿真"></a>一、电机控制理论及建模、仿真</h3><h4 id="深入浅出理解SVPWM"><a href="#深入浅出理解SVPWM" class="headerlink" title="深入浅出理解SVPWM"></a>深入浅出理解SVPWM</h4><ul><li>SVPWM理论推导；</li><li>SVPWM常见的几个错误理解；</li><li>SVPWM与SPWM本质区别与联系；</li><li>七段式与五段式SVPWM</li><li>SVPWM的仿真与代码实现<h4 id="坐标变换与磁场定向控制"><a href="#坐标变换与磁场定向控制" class="headerlink" title="坐标变换与磁场定向控制"></a>坐标变换与磁场定向控制</h4></li><li>磁场定向控制（FOC，或称矢量控制）的理论推导；</li><li>矢量、向量、相量、标量的理解与辨析</li><li>等幅值变换与等功率变换的区别与联系</li><li>不同坐标变换下的电机模型</li><li>坐标变换和FOC的本质<h4 id="常见电机控制算法"><a href="#常见电机控制算法" class="headerlink" title="常见电机控制算法"></a>常见电机控制算法</h4><h4 id="特种电机控制"><a href="#特种电机控制" class="headerlink" title="特种电机控制"></a>特种电机控制</h4></li><li>BLDC控制理论</li><li>PMSM控制理论</li><li>SRM控制理论<h4 id="电力电子技术相关"><a href="#电力电子技术相关" class="headerlink" title="电力电子技术相关"></a>电力电子技术相关</h4></li></ul><h3 id="二、相关软件使用"><a href="#二、相关软件使用" class="headerlink" title="二、相关软件使用"></a>二、相关软件使用</h3><h4 id="MATLAB-Simulink"><a href="#MATLAB-Simulink" class="headerlink" title="MATLAB/Simulink"></a>MATLAB/Simulink</h4><ul><li>面向对象编程（OOP）</li><li>APP Designer/GUI使用</li><li>MATLAB与C/C++/Python混合编程</li><li>Simulink嵌入式仿真</li><li>Simulink电机建模</li><li>S-Function使用</li><li>Stateflow使用</li><li>其他进阶技术与应用<h4 id="Saber"><a href="#Saber" class="headerlink" title="Saber"></a>Saber</h4></li><li>数模混合仿真</li><li>Mast语言及建模</li><li>自建模块库与接口封装技术</li><li>常见错误处理与其他应用技巧<h4 id="LabVIEW"><a href="#LabVIEW" class="headerlink" title="LabVIEW"></a>LabVIEW</h4></li><li>面向对象编程（OOP）</li><li>串口通信技术</li><li>生产者消费者模型</li><li>状态机设计</li><li>与MATLAB/Simulink联合仿真</li></ul>]]></content>
+    <content type="html"><![CDATA[<p>你好哇。  </p><p>我是一名EE专业的在读研究生，专业方向为电力电子与电力传动。长期以来，我在网上查阅了很多资料，包括论文、教材和个人博客，从中学习了很多知识，受益匪浅。然而，网络上的这些内容往往存在一些小差错，这就给包括我在内的读者带来了一些困惑。基于此，本网站将会记录一些我觉得有必要的内容，也有一些个人的学习体会和知识的系统总结。由于是专业内容，所以未免会有阅读门槛，需要读者有一定的阅读基础。</p><p>本网站基于Hexo框架建站，部署在Github上，域名购买自GoDaddy，文章排版采用Markdown和LaTex。  </p><p>本站涉及内容主要有以下几个方面：  </p><h3 id="一、电机控制理论及建模、仿真"><a href="#一、电机控制理论及建模、仿真" class="headerlink" title="一、电机控制理论及建模、仿真"></a>一、电机控制理论及建模、仿真</h3><h4 id="深入浅出理解SVPWM"><a href="#深入浅出理解SVPWM" class="headerlink" title="深入浅出理解SVPWM"></a>深入浅出理解SVPWM</h4><ul><li>SVPWM理论推导；</li><li>SVPWM常见的几个错误理解；</li><li>SVPWM与SPWM本质区别与联系；</li><li>七段式与五段式SVPWM</li><li>SVPWM的仿真与代码实现<h4 id="坐标变换与磁场定向控制"><a href="#坐标变换与磁场定向控制" class="headerlink" title="坐标变换与磁场定向控制"></a>坐标变换与磁场定向控制</h4></li><li>磁场定向控制（FOC，或称矢量控制）的理论推导；</li><li>矢量、向量、相量、标量的理解与辨析</li><li>等幅值变换与等功率变换的区别与联系</li><li>不同坐标变换下的电机模型</li><li>坐标变换和FOC的本质<h4 id="常见电机控制算法"><a href="#常见电机控制算法" class="headerlink" title="常见电机控制算法"></a>常见电机控制算法</h4></li><li>FOC</li><li>DTC</li><li>MPC</li><li>MTPA<h4 id="特种电机控制"><a href="#特种电机控制" class="headerlink" title="特种电机控制"></a>特种电机控制</h4></li><li>BLDC控制理论</li><li>PMSM控制理论</li><li>SRM控制理论<h4 id="电力电子技术相关"><a href="#电力电子技术相关" class="headerlink" title="电力电子技术相关"></a>电力电子技术相关</h4></li><li>电力电子系统建模及控制</li><li>常见电力电子仿真工具的使用</li></ul><h3 id="二、相关专业软件使用"><a href="#二、相关专业软件使用" class="headerlink" title="二、相关专业软件使用"></a>二、相关专业软件使用</h3><h4 id="MATLAB-Simulink"><a href="#MATLAB-Simulink" class="headerlink" title="MATLAB/Simulink"></a>MATLAB/Simulink</h4><ul><li>面向对象编程（OOP）</li><li>APP Designer/GUI使用</li><li>MATLAB与C/C++/Python混合编程</li><li>Simulink嵌入式仿真</li><li>Simulink电机建模</li><li>S-Function使用</li><li>Stateflow使用</li><li>其他进阶技术与应用<h4 id="Saber"><a href="#Saber" class="headerlink" title="Saber"></a>Saber</h4></li><li>数模混合仿真</li><li>Mast语言及建模</li><li>自建模块库与接口封装技术</li><li>常见错误处理与其他应用技巧<h4 id="LabVIEW"><a href="#LabVIEW" class="headerlink" title="LabVIEW"></a>LabVIEW</h4></li><li>面向对象编程（OOP）</li><li>串口通信技术</li><li>生产者消费者模型</li><li>状态机设计</li><li>与MATLAB/Simulink联合仿真</li></ul>]]></content>
     
     
     <categories>
       
-      <category>Sept</category>
+      <category>Sept/2020</category>
       
     </categories>
     
@@ -23,6 +23,8 @@
       <tag>Simulink</tag>
       
       <tag>Saber</tag>
+      
+      <tag>EE</tag>
       
     </tags>
     
