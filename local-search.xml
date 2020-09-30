@@ -4,24 +4,11 @@
   
   
   <entry>
-    <title>Test</title>
-    <link href="/2020/09/30/Test/"/>
-    <url>/2020/09/30/Test/</url>
-    
-    <content type="html"><![CDATA[<h3 id="This-is-a-Test-File"><a href="#This-is-a-Test-File" class="headerlink" title="This is a Test File."></a>This is a Test File.</h3><h5 id="2020-09-30"><a href="#2020-09-30" class="headerlink" title="2020/09/30"></a>2020/09/30</h5>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>开篇词：kizzi&#39;s EE World</title>
+    <title>开篇词</title>
     <link href="/2020/09/30/%E5%BC%80%E7%AF%87%E8%AF%8D%EF%BC%9Akizzi-s-EE-World/"/>
     <url>/2020/09/30/%E5%BC%80%E7%AF%87%E8%AF%8D%EF%BC%9Akizzi-s-EE-World/</url>
     
-    <content type="html"><![CDATA[<p>主要有以下几个方面：</p><h3 id="电机控制理论及建模、仿真"><a href="#电机控制理论及建模、仿真" class="headerlink" title="电机控制理论及建模、仿真"></a>电机控制理论及建模、仿真</h3><h4 id="深入浅出理解SVPWM"><a href="#深入浅出理解SVPWM" class="headerlink" title="深入浅出理解SVPWM"></a>深入浅出理解SVPWM</h4><ul><li>SVPWM理论推导；</li><li>SVPWM常见的几个错误理解；</li><li>SVPWM与SPWM本质区别与联系；</li><li>七段式与五段式SVPWM</li><li>SVPWM的仿真与代码实现<h4 id="坐标变换与磁场定向控制"><a href="#坐标变换与磁场定向控制" class="headerlink" title="坐标变换与磁场定向控制"></a>坐标变换与磁场定向控制</h4></li><li>磁场定向控制（FOC，或称矢量控制）的理论推导；</li><li>矢量、向量、相量、标量的理解与辨析</li><li>等幅值变换与等功率变换的区别与联系</li><li>不同坐标变换下的电机模型</li><li>坐标变换和FOC的本质<h4 id="常见电机控制算法"><a href="#常见电机控制算法" class="headerlink" title="常见电机控制算法"></a>常见电机控制算法</h4><h4 id="特种电机控制"><a href="#特种电机控制" class="headerlink" title="特种电机控制"></a>特种电机控制</h4></li><li>BLDC控制理论</li><li>PMSM控制理论</li><li>SRM控制理论<h4 id="电力电子技术相关"><a href="#电力电子技术相关" class="headerlink" title="电力电子技术相关"></a>电力电子技术相关</h4><h3 id="相关软件使用"><a href="#相关软件使用" class="headerlink" title="相关软件使用"></a>相关软件使用</h3><h4 id="MATLAB-Simulink"><a href="#MATLAB-Simulink" class="headerlink" title="MATLAB/Simulink"></a>MATLAB/Simulink</h4></li><li>面向对象编程（OOP）</li><li>APP Designer/GUI使用</li><li>MATLAB与C/C++/Python混合编程</li><li>Simulink嵌入式仿真</li><li>Simulink电机建模</li><li>S-Function使用</li><li>Stateflow使用</li><li>其他进阶技术与应用<h4 id="Saber"><a href="#Saber" class="headerlink" title="Saber"></a>Saber</h4></li><li>数模混合仿真</li><li>Mast语言及建模</li><li>自建模块库与接口封装技术</li><li>常见错误处理与其他应用技巧<h4 id="LabVIEW"><a href="#LabVIEW" class="headerlink" title="LabVIEW"></a>LabVIEW</h4></li><li>面向对象编程（OOP）</li><li>串口通信技术</li><li>生产者消费者模型</li><li>状态机设计</li><li>与MATLAB/Simulink联合仿真</li></ul>]]></content>
+    <content type="html"><![CDATA[<p>主要有以下几个方面：</p><h3 id="一、电机控制理论及建模、仿真"><a href="#一、电机控制理论及建模、仿真" class="headerlink" title="一、电机控制理论及建模、仿真"></a>一、电机控制理论及建模、仿真</h3><h4 id="深入浅出理解SVPWM"><a href="#深入浅出理解SVPWM" class="headerlink" title="深入浅出理解SVPWM"></a>深入浅出理解SVPWM</h4><ul><li>SVPWM理论推导；</li><li>SVPWM常见的几个错误理解；</li><li>SVPWM与SPWM本质区别与联系；</li><li>七段式与五段式SVPWM</li><li>SVPWM的仿真与代码实现<h4 id="坐标变换与磁场定向控制"><a href="#坐标变换与磁场定向控制" class="headerlink" title="坐标变换与磁场定向控制"></a>坐标变换与磁场定向控制</h4></li><li>磁场定向控制（FOC，或称矢量控制）的理论推导；</li><li>矢量、向量、相量、标量的理解与辨析</li><li>等幅值变换与等功率变换的区别与联系</li><li>不同坐标变换下的电机模型</li><li>坐标变换和FOC的本质<h4 id="常见电机控制算法"><a href="#常见电机控制算法" class="headerlink" title="常见电机控制算法"></a>常见电机控制算法</h4><h4 id="特种电机控制"><a href="#特种电机控制" class="headerlink" title="特种电机控制"></a>特种电机控制</h4></li><li>BLDC控制理论</li><li>PMSM控制理论</li><li>SRM控制理论<h4 id="电力电子技术相关"><a href="#电力电子技术相关" class="headerlink" title="电力电子技术相关"></a>电力电子技术相关</h4><h3 id="二、相关软件使用"><a href="#二、相关软件使用" class="headerlink" title="二、相关软件使用"></a>二、相关软件使用</h3><h4 id="MATLAB-Simulink"><a href="#MATLAB-Simulink" class="headerlink" title="MATLAB/Simulink"></a>MATLAB/Simulink</h4></li><li>面向对象编程（OOP）</li><li>APP Designer/GUI使用</li><li>MATLAB与C/C++/Python混合编程</li><li>Simulink嵌入式仿真</li><li>Simulink电机建模</li><li>S-Function使用</li><li>Stateflow使用</li><li>其他进阶技术与应用<h4 id="Saber"><a href="#Saber" class="headerlink" title="Saber"></a>Saber</h4></li><li>数模混合仿真</li><li>Mast语言及建模</li><li>自建模块库与接口封装技术</li><li>常见错误处理与其他应用技巧<h4 id="LabVIEW"><a href="#LabVIEW" class="headerlink" title="LabVIEW"></a>LabVIEW</h4></li><li>面向对象编程（OOP）</li><li>串口通信技术</li><li>生产者消费者模型</li><li>状态机设计</li><li>与MATLAB/Simulink联合仿真</li></ul>]]></content>
     
     
     
