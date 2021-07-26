@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>坐标变换与磁场定向控制（FOC）</title>
+    <link href="/2021/07/26/%E5%9D%90%E6%A0%87%E5%8F%98%E6%8D%A2%E4%B8%8E%E7%A3%81%E5%9C%BA%E5%AE%9A%E5%90%91%E6%8E%A7%E5%88%B6%EF%BC%88FOC%EF%BC%89/"/>
+    <url>/2021/07/26/%E5%9D%90%E6%A0%87%E5%8F%98%E6%8D%A2%E4%B8%8E%E7%A3%81%E5%9C%BA%E5%AE%9A%E5%90%91%E6%8E%A7%E5%88%B6%EF%BC%88FOC%EF%BC%89/</url>
+    
+    <content type="html"><![CDATA[<p>磁场定向控制，或者称“矢量控制”是实现交流电机高性能控制的重要方式，其核心是坐标变换。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>坐标变换</tag>
+      
+      <tag>磁场定向控制</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>深入浅出理解空间矢量脉宽调制技术（SVPWM）</title>
     <link href="/2021/07/26/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA%E7%90%86%E8%A7%A3%E7%A9%BA%E9%97%B4%E7%9F%A2%E9%87%8F%E8%84%89%E5%AE%BD%E8%B0%83%E5%88%B6%E6%8A%80%E6%9C%AF%EF%BC%88SVPWM%EF%BC%89/"/>
     <url>/2021/07/26/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA%E7%90%86%E8%A7%A3%E7%A9%BA%E9%97%B4%E7%9F%A2%E9%87%8F%E8%84%89%E5%AE%BD%E8%B0%83%E5%88%B6%E6%8A%80%E6%9C%AF%EF%BC%88SVPWM%EF%BC%89/</url>
@@ -21,6 +42,8 @@
     <tags>
       
       <tag>SVPWM</tag>
+      
+      <tag>SPWM</tag>
       
     </tags>
     
