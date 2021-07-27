@@ -15,9 +15,9 @@
   
   <meta name="theme-color" content="#2f4154">
   <meta name="description" content="">
-  <meta name="author" content="kizzi">
+  <meta name="author" content="">
   <meta name="keywords" content="">
-  <title>深入浅出理解空间矢量脉宽调制技术Ⅰ：SVPWM理论推导 - kizzi の EE World</title>
+  <title>深入浅出理解空间矢量脉宽调制技术Ⅲ - kizzi の EE World</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 
@@ -162,16 +162,11 @@
             
               <div class="mt-3">
   
-    <span class="post-meta mr-2">
-      <i class="iconfont icon-author" aria-hidden="true"></i>
-      kizzi
-    </span>
-  
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-07-26 22:45" pubdate>
-        2021年7月26日 晚上
+      <time datetime="2021-07-27 16:04" pubdate>
+        2021年7月27日 下午
       </time>
     </span>
   
@@ -182,7 +177,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      43 字
+      0 字
     </span>
   
 
@@ -222,39 +217,15 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto" id="post">
             <!-- SEO header -->
-            <h1 style="display: none">深入浅出理解空间矢量脉宽调制技术Ⅰ：SVPWM理论推导</h1>
+            <h1 style="display: none">深入浅出理解空间矢量脉宽调制技术Ⅲ</h1>
             
             <div class="markdown-body" id="post-body">
-              <p>目录</p>
-<ul>
-<li>SVPWM理论推导</li>
-<li>SVPWM常见的几个错误理解</li>
-<li>SVPWM与SPWM本质区别与联系</li>
-<li>七段式与五段式SVPWM</li>
-<li>SVPWM的仿真与代码实现</li>
-</ul>
-
+              
             </div>
             <hr>
             <div>
               <div class="post-metas mb-3">
                 
-                  <div class="post-meta mr-3">
-                    <i class="iconfont icon-category"></i>
-                    
-                      <a class="hover-with-bg" href="/categories/July/">July</a>
-                    
-                  </div>
-                
-                
-                  <div class="post-meta">
-                    <i class="iconfont icon-tags"></i>
-                    
-                      <a class="hover-with-bg" href="/tags/SVPWM/">SVPWM</a>
-                    
-                      <a class="hover-with-bg" href="/tags/SPWM/">SPWM</a>
-                    
-                  </div>
                 
               </div>
               
@@ -263,9 +234,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2021/07/26/%E5%9D%90%E6%A0%87%E5%8F%98%E6%8D%A2%E4%B8%8E%E7%A3%81%E5%9C%BA%E5%AE%9A%E5%90%91%E6%8E%A7%E5%88%B6%EF%BC%88FOC%EF%BC%89/">
+                      <a href="/2021/07/27/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA%E7%90%86%E8%A7%A3%E7%A9%BA%E9%97%B4%E7%9F%A2%E9%87%8F%E8%84%89%E5%AE%BD%E8%B0%83%E5%88%B6%E6%8A%80%E6%9C%AF%E2%85%A3/">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">坐标变换与磁场定向控制（FOC）</span>
+                        <span class="hidden-mobile">深入浅出理解空间矢量脉宽调制技术Ⅳ</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -273,8 +244,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2021/05/29/%E7%94%B5%E6%9C%BA%E4%B8%8E%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E4%BB%BF%E7%9C%9F%E8%BD%AF%E4%BB%B6%E5%AF%B9%E6%AF%94/">
-                        <span class="hidden-mobile">电机与电力电子仿真软件对比</span>
+                      <a href="/2021/07/27/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA%E7%90%86%E8%A7%A3%E7%A9%BA%E9%97%B4%E7%9F%A2%E9%87%8F%E8%84%89%E5%AE%BD%E8%B0%83%E5%88%B6%E6%8A%80%E6%9C%AF%E2%85%A1/">
+                        <span class="hidden-mobile">深入浅出理解空间矢量脉宽调制技术Ⅱ</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -417,7 +388,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "深入浅出理解空间矢量脉宽调制技术Ⅰ：SVPWM理论推导&nbsp;",
+        "深入浅出理解空间矢量脉宽调制技术Ⅲ&nbsp;",
       ],
       cursorChar: "",
       typeSpeed: 70,
