@@ -177,7 +177,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      510 字
+      2.4k 字
     </span>
   
 
@@ -187,7 +187,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      5
+      25
        分钟
     </span>
   
@@ -221,12 +221,37 @@
             
             <div class="markdown-body" id="post-body">
               <p>本文结合笔者自身使用体验，针对电气工程领域中电子电路、电力电子与电力传动、电机控制等学科常用的仿真软件，进行归纳性介绍与对比。以下内容仅针对本人所接触到的技术领域，仅代表个人看法，如有错误，欢迎不吝指正。</p>
-<p>随着计算机技术的发展，仿真软件已成为当代科研不可或缺的工具。从一个idea的产生，到最终的实验验证，仿真正是沟通二者的桥梁，通过仿真可以快速验证理论或所提方法的正确与否。但仿真不是万能的，实际应用时会有各种各样仿真中不存在的问题。另外，受诸多因素限制，许多时候仿真结果也未必完全准确，所以也会出现仿真结果与实验结果不一致的情况。</p>
+<p>随着计算机技术的发展，仿真软件已成为当代科研、工业界不可或缺的工具。从一个idea的产生，到最终的实验验证，仿真正是沟通二者的桥梁，通过仿真可以快速验证理论或所提方法的正确与否。但仿真不是万能的，实际应用时会有各种各样仿真中不存在的问题。另外，受诸多因素限制，许多时候仿真结果也未必完全准确，所以也会出现仿真结果与实验结果不一致的情况。</p>
 <p>以下结合这几年的学习使用体会，介绍几款常用的主流仿真软件。</p>
-<h3 id="MATLAB-Simulink"><a href="#MATLAB-Simulink" class="headerlink" title="MATLAB/Simulink"></a>MATLAB/Simulink</h3><p>最早是在本科学习数值计算方法时接触MATLAB的，后来在学习自动控制原理时入门了Simulink。因为觉得这个软件值得更进一步学习，后来旁听了一门相关课程。直到现在，也在不停地学习MATLAB/Simulink。MATLAB/Simulink目前是我日常使用最多的软件。</p>
-<p>Simulink是MATLAB的子集，内嵌在MATLAB中。仿真的本质上是数值计算，但把MATLAB视为大号的”计算器“也未免太狭隘了。Simulink为电子电路仿真提供可视化界面，操作简单，易于快速验证控制算法。这也正是Simulink最突出的优点——控制算法验证与仿真。</p>
-<p>但Simulink里的器件均为理想器件，无法准确体现实际电路的电气特性，因此Simulink对开关级电路的仿真能力不足，是限制Simulink在电力电子领域应用的主要原因。</p>
-<h3 id="Saber"><a href="#Saber" class="headerlink" title="Saber"></a>Saber</h3>
+<h2 id="MATLAB-Simulink"><a href="#MATLAB-Simulink" class="headerlink" title="MATLAB/Simulink"></a><a target="_blank" rel="noopener" href="https://www.mathworks.com/products/simulink.html">MATLAB/Simulink</a></h2><p>最早是在本科学习数值计算方法时接触MATLAB的，后来在学习自动控制原理时入门了Simulink。因为觉得这个软件值得更进一步学习，旁听了一门相关课程。直到现在，也在不停地学习MATLAB/Simulink。MATLAB/Simulink目前是我日常使用最多的软件。</p>
+<p>在MATLAB的官网上，创始人Cleve Moler教授发表了<a target="_blank" rel="noopener" href="https://ww2.mathworks.cn/company/newsletters/articles/a-brief-history-of-matlab.html">一篇博文</a>回顾了MATLAB如何从最早的矩阵教学工具发展到现在工业界和学术界应用最为广泛的软件。值得敬佩的是，直到今天MATLAB已经发展了三十多年了，仍在他的<a target="_blank" rel="noopener" href="https://blogs.mathworks.com/cleve/">博客</a>上孜孜不倦地发表相关博文，讨论与MATLAB相关的问题。前一段时间，哈工大等高校被美国政府禁用MATLAB软件，在知乎上有相关讨论，有两篇回答让我印象深刻，链接如下：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/400835896/answer/1528269456">如果中国重新开发像MATLAB、solidworks这样的软件大概需要多久？</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/402837414">为什么中国程序员工资那么高，连一个 MATLAB 的替代品都开发不出来？</a></li>
+</ul>
+<p>开发MATLAB这种软件和开发微信、抖音之类的软件完全不同，需要的不是擅长编码的程序员，而是需要精通数学、力学、航空航天、信号处理、控制、电子电气等专业人士合力研究，所谓精通，至少在某一领域达到博士级别。更为重要的是，在一开始，这并不是为了赚钱去的。</p>
+<p>闲言少叙。</p>
+<p>Simulink是MATLAB的子集，内嵌在MATLAB中。仿真的本质上是数值计算，但不要把MATLAB狭隘地视为大号的”计算器“。Simulink为电子电路仿真提供可视化界面，操作简单，易于快速验证控制算法。这也正是Simulink最突出的优点——动态系统建模、控制算法验证与仿真。</p>
+<p>但Simulink里的器件均为理想器件，无法准确体现实际电路的电气特性，因此Simulink对开关级电路的仿真能力不足，是限制Simulink在电力电子领域应用的主要原因。Simulink对开关电路的仿真的精度不够，所以开关级电路一般不用Simulink仿真，或者只看个大概。但是Simulink有着丰富的接口，所以开关电路可以放在其他仿真软件中仿真，而把控制算法放在Simulink中实现。</p>
+<p>至于控制算法的实现，可以直接使用Simulink模块搭建，或者直接写嵌入式代码，在Simulink中运行，这样可以在仿真过程中验证代码的准确性。</p>
+<p>Simulink可以配合MATLAB的其他工具进行复杂的建模和数理分析，甚至搭建更复杂的电气、电网系统进行模型验证。同样地，其对众多真实微处理器的联动（包括TI C2000），和外界真实系统/其他软件的数据交互接口，硬件在环，代码生成/验证/基于模型的设计等，自然是不在话下。</p>
+<h2 id="Saber"><a href="#Saber" class="headerlink" title="Saber"></a><a target="_blank" rel="noopener" href="https://www.synopsys.com/verification/virtual-prototyping/saber.html">Saber</a></h2><p>Saber是美国Synopsys开发的数模混合仿真软件，功能十分强大，十分适合仿真开关电源。大三的时候，有一门课是讲授Saber仿真电力电子。我当时去旁听几次就没去了，觉得这些软件的学习不如自学，照着Tutorial或者demo以及一些教材慢慢地熟悉一个一个操作，从最简单的电路搭建开始。</p>
+<p>Saber因为对每个器件进一步自定义的特征化，包括导入SPICE模型。更高级的，它支持参数扫描，最恶劣工况分析，可靠性分析（应力和功能安全），并支持并行仿真提高运行速度。利用供应商datasheet提供的数据，我们可以在Saber中完成对每一个组件的详细建模（查表，曲线，公式）和参数自定义。</p>
+<p>在求解器方面，一旦一个微分方程求解算法遇到不收敛的情况会自动切换为另一种算法，这避免了Simulink中经常出现的代数环问题及仿真不收敛问题。</p>
+<p>在研究生阶段，参与了使用Saber建模、开发仿真模型的项目，进一步深化了对Saber的理解。学习了使用MAST建模语言依据数学模型建模的方法。同样对电机建模，Simulink中电气信号和Simulink信号需要相互转化，而在Saber只需对端口定义为电气端口即可，无需转化。</p>
+<p>Saber也可以内嵌处理器套件，实现处理器在环仿真，并且和Simulink有接口互连，这进一步拓展了Saber的应用场景。</p>
+<h2 id="PSIM"><a href="#PSIM" class="headerlink" title="PSIM"></a><a target="_blank" rel="noopener" href="https://powersimtech.com/products/psim/capabilities-applications/">PSIM</a></h2><p>PSIM是专门针对电力电子与电机驱动应用开发的。研一的时候，上过“电力电子的物理释义”这门课，课程的Project就是使用PSIM完成仿真的。刚开始使用的时候，觉得这个软件挺小巧玲珑的。在早期，PSIM是以理想元器件，超快的仿真速度和很强的收敛性著称。</p>
+<p>但从PSIM 11开始，在快速仿真的基础上，为了提高仿真的真实度并兼容SPICE仿真体系，每一个器件PSIM都同时支持定义为PSIM模型（ideal或带各种参数的level 2非线性模型）或SPICE模型（称为PSIM-SPICE pro）。并且，PSIM开始支持直接在内部嵌入LTspice进行仿真。</p>
+<p>PSIM对于多种代码模块的支持，能用于验证各类数字控制程序。除此之外，最特色的尚属PSIM的SimCoder模块，拥有实时数字控制的巨大仿真优势。其内置如TI C2000 MCU的众多子模块，可以直接引入C2000的ePWM/CAN/SPI/SCI/ADC等模块，配合代码，连入电路中进行仿真（Processor in loop）。</p>
+<p>同时，PSIM支持利用模块，直接配置C2000控制代码的导出。利用Code Generation模块，我们可以通过配置PSIM C2000模块中的参数，链接CCS软件，生成实际的C2000代码来实现实际的控制。</p>
+<h2 id="LTspice"><a href="#LTspice" class="headerlink" title="LTspice"></a><a target="_blank" rel="noopener" href="https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html">LTspice</a></h2><p>LTspice是美国亚德诺半导体公司推出的电力电子仿真软件。最早是为了做双脉冲仿真测试接触到这个软件。由于LT是以电源IC而出名，LTSpice确实也针对开关稳压器的仿真速度进行了改进，较之标准的SPICE仿真器有了大幅度的提高。</p>
+<p>LTspice内置了大量器件的模型，并且很容易导入spice模型。大多数半导体厂商都会提供所售器件的spice模型。</p>
+<h2 id="Multisim"><a href="#Multisim" class="headerlink" title="Multisim"></a><a target="_blank" rel="noopener" href="https://www.ni.com/zh-cn/support/downloads/software-products/download.multisim.html">Multisim</a></h2><p>Multisim是美国NI公司推出的电路仿真软件，Multisim​是​行业​标准​的​SPICE​仿真​和电路​设计​软件，​适用​于​模拟、​数字​和​电力​电子​领域​的​教学​和​研究。Multisim​集成​了​业界​标准​的​SPICE​仿真​以及​交互​式​电路​图​环境，​可​即时​可​视​化​和​分析​电子​电路​的​行为。​其​直观​的​界面​可​帮助​教育​工作​者​强化​学生​对​电路​理论​的​理解，​高效​地​记忆​工程​课程​的​理论。​研究​人员​和​设计​人员​可​借助​Multisim​减少​PCB​的​原型​迭代，​并​为​设计​流程​添加​功能​强大​的​电路​仿真​和​分析，​以​节省​开发​成本。</p>
+<p>Multisim的前身是EWB。大一学习电路分析和大二学习信号与系统，都是使用Multisim进行仿真学习。而在大三学习自动控制原理的时候，反倒使用EWB进行仿真。</p>
+<h2 id="PLECS"><a href="#PLECS" class="headerlink" title="PLECS"></a><a target="_blank" rel="noopener" href="https://www.plexim.com/products/plecs">PLECS</a></h2><p>瑞士Plexim GmbH公司开发的系统级电力电子仿真软件PLECS，目前在欧美非常流行。PLECS是一个用于电路和控制结合的多功能仿真软件，尤其适用于电力电子和传动系统。</p>
+<p>如今的PLECS，已经拥有PLECS Blockset（嵌套版本）(PLECS作为在MATLAB/Simulink运行环境下的一款高速电力电子仿真工具) 和PLECS Standalone版本（独立版本）两个版本。</p>
+<p>第一次接触PLECS时，感觉就是Simulink的翻版。事实上，PLECS完全可以嵌入Simulink中。PLECS虽然是基于纯理想元器件仿真，但是支持基于开关时刻电压电流的损耗查表功能，以及基于磁路的磁元件模型，和热等效电路的热分析。仿真速度极快，非常适合原理验证，方案快速分析和数字控制的C代码实现支持联动TI C2000，也可配合RTBOX实现硬件在环（HIL）半实物仿真。</p>
+
             </div>
             <hr>
             <div>
